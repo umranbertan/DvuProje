@@ -1,0 +1,58 @@
+﻿<section class="h-100">
+    <div class="container h-100">
+        <div class="row justify-content-md-center h-100">
+            <div class="card-wrapper">
+                <div class="brand">
+                    <img src="/LoginPage/img/logo.png" alt="logo">
+                </div>
+                <div class="card fat">
+                    <div class="card-body">
+
+                        <form method="POST" class="my-login-validation" novalidate="">
+                            <div class="form-group">
+                                <label for="email">E-Mail Adres</label>
+                                <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+                                <div class="invalid-feedback">
+                                    Geçersiz E-mail
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password">
+                                    Password
+                                    <a href="/Login/reset" class="float-right">
+                                        Şifremi unuttum!
+                                    </a>
+                                </label>
+                                <input id="password" type="password" class="form-control" name="password" required data-eye>
+                                <div class="invalid-feedback">
+                                    Şifreyi giriniz!
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="custom-checkbox custom-control">
+                                    <input type="checkbox" name="remember" id="remember" class="custom-control-input">
+
+                                </div>
+                            </div>
+
+                            <div class="form-group m-0">
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    Giriş
+                                </button>
+                            </div>
+                            <div class="mt-4 text-center">
+                                Hesabınız yok mu? <a href="/Login/register">Yeni hesap kur</a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="footer">
+                    DVU İşe alım Projesi
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
